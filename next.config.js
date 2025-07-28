@@ -5,7 +5,7 @@ const isGithubPages = process.env.NODE_ENV === "production";
 const repo = "developer-portfolio";
 
 module.exports = {
-  output: "export",
+  // output: "export",
   basePath: isGithubPages ? `/${repo}` : "",
   assetPrefix: isGithubPages ? `/${repo}/` : "",
   sassOptions: {
